@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dhruti Parekh - 101039706
+     COMP3074 -  Assignment 1
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a101039706.a1101039706.RestaurantActivity">
+
+    <TextView
+        android:id="@+id/listOfRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Select the restaurant"
+        android:textColor="#D4A539"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/spinnerlistOfrestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/listOfRestaurant"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/restaurants"/>
+
+    <ListView
+        android:id="@+id/menuItemListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerlistOfrestaurant"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="20dp"
+        android:choiceMode="multipleChoice" />
+
+    <Button
+        android:id="@+id/BtnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:backgroundTint="#D4A539"
+        android:onClick="goToCustomerInfo"
+        android:text="Next"
+        android:textColor="#800000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dhruti Parekh - 101039706
+     COMP3074 -  Assignment 1
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a101039706.a1101039706.CustomerInfoActivity">
+
+
+    <TextView
+        android:id="@+id/listOfRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Customer Information"
+        android:textAlignment="center"
+        android:textColor="#D4A539"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:textSize="20dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:maxLength="50"
+        android:textSize="20dp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/editTextCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="16"
+        android:textSize="20dp"
+        android:hint="Credit Card" />
+
+    <EditText
+        android:id="@+id/editTextFavouriteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textSize="20dp"
+        android:hint="Favourite Food" />
+
+    <EditText
+        android:id="@+id/editTextFavouriteCuisine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:textSize="20dp"
+        android:hint="Favourite Cuisine" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="85dp"
+        android:background="?attr/colorBackgroundFloating"
+        android:backgroundTint="#D4A539"
+        android:text="Order"
+        android:onClick="goToCheckOutScreen"
+        android:textColor="#800000"
+        android:textSize="20dp" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">A1101039706</string>
+    <array name="restaurants">
+        <item>@array/indian_restaurant</item>
+        <item>@array/mexican_restaurant</item>
+        <item>@array/chinese_restaurant</item>
+        <item>@array/italian_restaurant</item>
+    </array>
+
+    <array name="indian_restaurant">
+        <item>
+            <array name="empire_grill">
+                <item>Chipotle Mexican Grill</item>
+                <item>La Mexicana</item>
+                <item>Barburrito</item>
+            </array>
+        </item>
+        <item>Roti Palace</item>
+        <item>Jaipur Grill</item>
+    </array>
+    <array name="mexican_restaurant">
+        <item>Chipotle Mexican Grill</item>
+        <item>La Mexicana</item>
+        <item>Barburrito</item>
+    </array>
+    <array name="chinese_restaurant">
+        <item>Sea Hi</item>
+        <item>Spring China House</item>
+        <item>Mio Chinese</item>
+    </array>
+    <array name="italian_restaurant">
+        <item>Jamie Italian</item>
+        <item>PAESE Ristorante</item>
+        <item>Ristorante Boccaccio</item>
+    </array>
+</resources>
